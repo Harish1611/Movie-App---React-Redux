@@ -7,8 +7,8 @@ const Header = () => {
         <Link to="/" >
         <div className="text-fontPrimary font-inter font-semibold text-[20px]">Movie App</div>
         </Link>
-        <div className="w-[38px] h-38px]">
-            <img src={user} className="w-[38px] h-38px]" alt="user" />
+        <div className="w-[38px] h-[38px]">
+            <img src={user} className="w-[38px] h-[38px]" alt="user" />
         </div>
     </div>
   )
