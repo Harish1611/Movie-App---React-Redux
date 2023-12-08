@@ -13,8 +13,10 @@ module.exports = {
 
       },
       fontFamily: {
-        sans: ['Arial', 'Helvetica', 'sans-serif'],
-        serif: ['Georgia', 'serif'],
+        sans: ['Poppins', 'Arial', 'Helvetica', 'sans-serif'],
+        serif: ['Montserrat', 'Georgia', 'serif'],
+        satoshi: ['Satoshi', 'sans-serif'],
+        inter: ['Inter', 'sans-serif'],
       },
     },
   },
