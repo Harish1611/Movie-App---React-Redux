@@ -18,6 +18,17 @@ module.exports = {
         satoshi: ['Satoshi', 'sans-serif'],
         inter: ['Inter', 'sans-serif'],
       },
+      margin: {
+        '0': '0',
+      },
+      padding: {
+        '0': '0',
+      },
+      boxSizing: {
+        'border-box': 'border-box',
+      }, textDecoration: {
+        'none': 'none',
+      },
     },
   },
   plugins: [],
