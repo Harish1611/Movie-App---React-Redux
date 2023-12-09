@@ -4,7 +4,7 @@ import { createSlice } from "@reduxjs/toolkit";
 // Creating of Initial State
 
 const initialState =  {
-    movies:[],
+    movies:{},
 }
 
 
