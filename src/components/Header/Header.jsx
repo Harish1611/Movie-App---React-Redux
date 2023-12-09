@@ -3,7 +3,7 @@ import user from '../../assets/user.png'
 
 const Header = () => {
   return (
-    <div className=" bg-secondary h-[72px] px-[40px] py-[0] flex items-center justify-around ">
+    <div className=" bg-secondary h-[72px] px-[40px] py-[0] flex items-center justify-between ">
         <Link to="/" >
         <div className="text-fontPrimary font-inter font-semibold text-[20px]">Movie App</div>
         </Link>
