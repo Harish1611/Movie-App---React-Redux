@@ -19,22 +19,25 @@ const MovieDetail = () => {
       {/* Left Section */}
       <div className="">
         <div className="">
-          <div className="">{data.Title}</div>
-          <span className="">
-            IMDB Rating <i className="fa fa-star"></i> :{data.imdbRating}
+          <div className="text-[40px] text-fontPrimary">{data.Title}</div>
+          <div className="pl-[3px] mt-[20px] text-fontSecondary flex">
+          <span className="mr-[20px]" >
+            IMDB Rating <i className="fa fa-star text-[#ff9e00]"></i> :{data.imdbRating}
           </span>
-          <span className="">
-            IMDB Votes <i className="fa fa-thumbs-up"></i> :{data.imdbVotes}
+          <span className="mr-[20px]">
+            IMDB Votes <i className="fa fa-thumbs-up text-[#fafafa]"></i> :{data.imdbVotes}
           </span>
-          <span className="">
-            Runtime <i className="fa fa-film"></i> :{data.Runtime}
+          <span className="mr-[20px]">
+            Runtime <i className="fa fa-film text-[#BFD5D6] "></i> :{data.Runtime}
           </span>
-          <span className="">
-            Year <i className="fa fa-calendar"></i> :{data.Year}
+          <span className="mr-[20px]">
+            Year <i className="fa fa-calendar text-[peachpuff]"></i> :{data.Year}
           </span>
+          </div>
         </div>
         
-        <div className="">{data.Plot}</div>
+        <div className=" mt-[20px] leading-8">{data.Plot}</div>
+        <div className="movie_info">
         <div className="">
           <span>Director</span>
           <span>{data.Director}</span>
@@ -59,12 +62,13 @@ const MovieDetail = () => {
           <span>Awards</span>
           <span>{data.Awards}</span>
         </div>
+        </div>
       </div>
 
 
       {/* Right Section */}
-      <div className="">
-        <img src={data.Poster} alt={data.Title} />
+      <div className="ml-[30px] w-full">
+        <img className="h-full w" src={data.Poster} alt={data.Title} />
       </div>
 
     </div>

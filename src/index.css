@@ -12,3 +12,13 @@ body{
 .container_custom {
     @apply mx-0 my-[40px]
   }
+
+.movie_info > div span:first-child {
+
+    @apply px-3  text-fontPrimary font-normal w-[100px] inline-block
+}
+
+.movie_info > div span {
+
+    @apply  text-fontSecondary
+}
