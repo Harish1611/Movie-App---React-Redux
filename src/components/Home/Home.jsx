@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import MovieListing from "../MovieListing/MovieListing";
 import { useDispatch } from "react-redux";
-import { fetchAsyncMovies } from "../../state/movies/movieSlice";
+import { fetchAsyncMovies, fetchAsyncShows } from "../../state/movies/movieSlice";
 
 
 
@@ -9,7 +9,9 @@ const Home = () => {
 
     const dispatch = useDispatch();
     useEffect(()=>{
-       dispatch(fetchAsyncMovies())     
+       dispatch(fetchAsyncMovies()) 
+       dispatch(fetchAsyncShows())     
+    
     },[dispatch])
 
 
