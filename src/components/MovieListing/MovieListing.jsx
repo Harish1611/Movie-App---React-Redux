@@ -10,7 +10,7 @@ const MovieListing = () => {
     <div className="">
       <div className="mx-[20px] my-0 ">
         <h2 className="text-fontSecondary mb-[10px] font-normal">Movies</h2>
-        <div className=" grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 space-x-5">
+        <div className=" grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 space-x-5 space-y-5">
           {movies.Response === "True" ? (
             movies.Search.map((movie, index) => <MovieCard key={index} data={movie} />)
           ) : (
